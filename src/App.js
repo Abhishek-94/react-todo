@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Table from './Table';
 import AddDetail from './AddDetail';
-import './App.css';
 
 class App extends Component {
   constructor(){
@@ -9,7 +8,7 @@ class App extends Component {
     this.state= {
       detail : []
     };
-    this.count = 4;
+    this.count = 0;
   }
   
   addDetail = (detail) => {
@@ -32,7 +31,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>ToDo List</h1>
+        <p style={{'font-size':'40px'}}>ToDo List</p>
         <Table deleteDetail = {this.deleteDetail} detail={this.state.detail}/>
         <AddDetail addDetail={this.addDetail} />
       </div>

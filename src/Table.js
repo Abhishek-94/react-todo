@@ -7,9 +7,8 @@ class Table extends Component {
         const detailList = detail.map(details => {
             return(
                 <div className="details" key={details.id}>
-                  <input type="radio" className="checked" /> 
-                  <div style={{display: "inline-block", width: "200px", overflow: "hidden"}} name="name"> {details.name}</div>
-                  <button onClick={() => {deleteDetail(details.id)}}>Delete</button>
+                  <div style={{display: "inline-block", width: "200px", overflow: "hidden", 'font-size': "40px" }} name="name"> {details.name}</div>
+                  <img src="https://img.icons8.com/flat_round/50/000000/delete-sign.png" onClick={() => {deleteDetail(details.id)}}></img>
                 </div>
             )
         })
