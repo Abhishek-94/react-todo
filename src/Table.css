@@ -1,9 +1,19 @@
 .details {
-    margin-left: 35%;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+    background-color: #00b9ce;
+    color: white;
 }
 
 button{
     margin-bottom: 15px;
+    height: 40px;
+    width: 58px;
+    margin-left: 10px;
+    font-size: larger;
 }
 
 form{
@@ -12,4 +22,8 @@ form{
 
 img{
     height: 33px;
+}
+#name{
+    height: 35px;
+    font-size: 20px;
 }

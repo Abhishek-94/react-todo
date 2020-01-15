@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import './Table.css';
 
 class AddDetail extends Component{
     state = {
@@ -22,8 +23,9 @@ class AddDetail extends Component{
         return(
             <div>
                 <form onSubmit={this.handleSubmit}>
-                    <br></br><label htmlFor="name">Text: </label>
-                    <input type="text" id="name" onChange={this.handleChange} />
+                    <br></br>
+                    {/* <label htmlFor="name">Text: </label> */}
+                    <input type="text" placeholder="Type here" id="name" onChange={this.handleChange} />
                     <button>Add</button>
                 </form>    
             </div>
