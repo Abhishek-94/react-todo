@@ -1,11 +1,12 @@
 .details {
     margin: auto;
-    width: 30%;
+    width: 34%;
     text-align: center;
     border: 1px solid;
     border-color: black;
     background-color: #00b9ce;
     color: white;
+    overflow: hidden;
 }
 
 button{
@@ -21,7 +22,11 @@ form{
 }
 
 img{
+    align-content: end;
     height: 33px;
+    float: right;
+    padding-top: 4px;
+    padding-right: 2px;
 }
 #name{
     height: 35px;

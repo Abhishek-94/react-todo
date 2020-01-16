@@ -24,7 +24,6 @@ class AddDetail extends Component{
             <div>
                 <form onSubmit={this.handleSubmit}>
                     <br></br>
-                    {/* <label htmlFor="name">Text: </label> */}
                     <input type="text" placeholder="Type here" id="name" onChange={this.handleChange} />
                     <button>Add</button>
                 </form>    

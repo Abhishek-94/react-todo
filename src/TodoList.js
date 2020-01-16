@@ -30,8 +30,8 @@ class TodoList extends Component {
       return (
         <div className="TodoList">
           <p style={{fontSize: '40px'}}>ToDo-List</p>
-          <Table deleteDetail = {this.deleteDetail} detail={this.state.detail}/>
           <AddDetail addDetail={this.addDetail} />
+          <Table deleteDetail = {this.deleteDetail} detail={this.state.detail}/>
         </div>
       );
     }
